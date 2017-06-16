@@ -8,6 +8,6 @@ namespace EntregaTareas.COMMON.Interfaces
 {
     public interface IMateriasDeAlumnoManager:IGenericManager<MateriasDeAlumnoDTO>
     {
-        Task<List<MateriaDTO>> BuscarMateriasDeAlumno(string idAlumno);
+        Task<List<MateriasDeAlumnoDTO>> BuscarMateriasDeAlumno(string idAlumno);
     }
 }

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntregaTareas.COMMON", "Ent
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntregaTareas.DAL.Azure", "EntregaTareas.DAL.Azure\EntregaTareas.DAL.Azure.csproj", "{F3A77175-E0B9-4820-8322-EDEF06174089}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntregaTareas.BIZ", "EntregaTareas.BIZ\EntregaTareas.BIZ.csproj", "{4F1820C7-4136-4B2E-9286-DEDD5099801F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F3A77175-E0B9-4820-8322-EDEF06174089}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3A77175-E0B9-4820-8322-EDEF06174089}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3A77175-E0B9-4820-8322-EDEF06174089}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F1820C7-4136-4B2E-9286-DEDD5099801F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F1820C7-4136-4B2E-9286-DEDD5099801F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F1820C7-4136-4B2E-9286-DEDD5099801F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F1820C7-4136-4B2E-9286-DEDD5099801F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
