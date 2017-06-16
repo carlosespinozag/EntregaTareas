@@ -13,7 +13,7 @@ namespace EntregaTareas.UI.Cross
         {
             InitializeComponent();
 
-            MainPage = new EntregaTareas.UI.Cross.MainPage();
+            MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart()

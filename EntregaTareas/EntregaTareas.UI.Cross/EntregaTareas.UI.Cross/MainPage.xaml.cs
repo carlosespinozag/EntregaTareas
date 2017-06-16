@@ -13,5 +13,15 @@ namespace EntregaTareas.UI.Cross
         {
             InitializeComponent();
         }
+
+        private async void btnRegistro_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Registrar());
+        }
+
+        private void btnIniciarSesion_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }

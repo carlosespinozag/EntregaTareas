@@ -39,4 +39,4 @@ namespace EntregaTareas.COMMON.Entidades
         }
     }
 }
-}
+

@@ -13,5 +13,6 @@ namespace EntregaTareas.COMMON.Entidades
         public string Matricula { get; set; }
         public string FacebookId { get; set; }
         public string Contrasenia { get; set; }
+        public string Email { get; set; }
     }
 }
